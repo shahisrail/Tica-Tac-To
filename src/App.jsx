@@ -40,7 +40,7 @@ export const Bord = ({ xIsNext, Squares, onplayed }) => {
   return (
     <>
       <div> {status} </div>
-      <div className="flex">
+      <div className="flex ">
         <Square value={Squares[0]} onSquareCliked={() => handelCliked(0)} />
         <Square value={Squares[1]} onSquareCliked={() => handelCliked(1)} />
         <Square value={Squares[2]} onSquareCliked={() => handelCliked(2)} />
